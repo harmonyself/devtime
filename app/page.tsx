@@ -18,13 +18,6 @@ export default function Home() {
           <p className="text-gray-600 text-lg">
             개발 시간을 추적하고 수익을 계산하세요
           </p>
-          <p className="text-gray-500 text-lg">
-            현재는 LocalStorage 사용으로 동일 브라우저에서만 프로젝트가 유지됩니다.
-          </p>          
-          <p className="text-gray-500 text-lg">
-            현재는 무료로 제공되며, 동기화 가능한 Pro 버전은 곧 출시할 예정입니다!
-          </p>          
-          
         </header>
 
         <Dashboard />
@@ -43,6 +36,8 @@ export default function Home() {
             Pro 버전으로 업그레이드 - ₩9,000/월
           </button>
           */}
+          <p className="mb-2">현재는 LocalStorage 사용으로 동일 브라우저에서만 프로젝트가 유지됩니다.</p>
+          <p className="mb-2">현재 무료로 제공되며, Pro 버전은 곧 출시할 예정입니다!</p>
         </footer>
       </div>
     </main>
