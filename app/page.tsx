@@ -18,10 +18,10 @@ export default function Home() {
           <p className="text-gray-600 text-lg">
             개발 시간을 추적하고 수익을 계산하세요
           </p>
-          <p className="text-gray-300 text-lg">
+          <p className="text-gray-500 text-lg">
             현재는 LocalStorage 사용으로 동일 브라우저에서만 프로젝트가 유지됩니다.
           </p>          
-          <p className="text-gray-300 text-lg">
+          <p className="text-gray-500 text-lg">
             현재는 무료로 제공되며, 동기화 가능한 Pro 버전은 곧 출시할 예정입니다!
           </p>          
           
@@ -38,11 +38,11 @@ export default function Home() {
         
         <footer className="mt-12 text-center text-gray-600">
           <p className="mb-2">💡 간단하게 시간을 추적하고 수익을 확인하세요</p>
-          <!-- 
+          {/* 
           <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transition">
             Pro 버전으로 업그레이드 - ₩9,000/월
           </button>
-          -->
+          */}
         </footer>
       </div>
     </main>
