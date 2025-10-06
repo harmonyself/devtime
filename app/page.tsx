@@ -38,9 +38,11 @@ export default function Home() {
         
         <footer className="mt-12 text-center text-gray-600">
           <p className="mb-2">💡 간단하게 시간을 추적하고 수익을 확인하세요</p>
+          <!-- 
           <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-lg transition">
             Pro 버전으로 업그레이드 - ₩9,000/월
           </button>
+          -->
         </footer>
       </div>
     </main>
